@@ -1,0 +1,476 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.green-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-button, .red-button, .black-button {
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-button {
+    background-color: #17a2b8;
+    color: white;
+    text-decoration: none;
+}
+
+.red-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.black-button {
+    background-color: #343a40;
+    color: white;
+}
+
+.purple-button {
+    background-color: #8c00ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pink-button {
+    background-color: #ff00ea;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+/* General reset styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.report-container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    background-color: white; /* Background color of the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.report-container h1 {
+    text-align: center; /* Center the text */
+    color: #333; /* Dark text color */
+}
+
+.report-container label {
+    display: block; /* Each label in a new line */
+    margin-bottom: 5px; /* Space below the label */
+    color: #555; /* Slightly lighter text color */
+}
+
+.report-container input[type="text"],
+.report-container select,
+.report-container textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding */
+    margin-bottom: 15px; /* Space below input fields */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.report-container input[type="text"]:focus,
+.report-container select:focus,
+.report-container textarea:focus {
+    border-color: #4CAF50; /* Green border color on focus */
+    outline: none; /* No outline on focus */
+}
+
+.report-container button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 15px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    width: 100%; /* Full width */
+    transition: background-color 0.3s; /* Background color transition effect */
+}
+
+.report-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+
+/* General styles for the CCOH page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header for the CCOH page */
+.header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Navigation styles specific to the CCOH page */
+.navbar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #c0392b;
+}
+
+/* Main content styling for the CCOH page */
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+/* Footer for the CCOH page */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 5px;
+}
+
+/* Allgemeine Formulareinstellungen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Formular-Container */
+  form {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Überschriften-Stil */
+  form h1 {
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  /* Beschriftung für die Felder */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+    font-weight: bold;
+  }
+  
+  /* Eingabefelder */
+  input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Textbereiche */
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Buttons */
+  input[type="submit"], input[type="reset"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover-Effekte für Buttons */
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Fokus-Stil für Eingabefelder */
+  input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+  }
+  
+  /* Anpassung der Buttons */
+  input[type="reset"] {
+    background-color: #e0e0e0;
+    color: #333333;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #d0d0d0;
+  }
+  
+  /* Fehler- oder Hinweistext */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design für mobile Geräte */
+  @media (max-width: 600px) {
+    form {
+      padding: 15px;
+    }
+  }
+  
+
+  /* Style für die Button Gruppe */
+.content-section {
+    padding: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Stil für die vorhandenen Buttons */
+.server-button,
+.discord-button,
+.job-button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Stil für den großen Strich (Divider) */
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #ccc; /* Farbe des Strichs */
+    margin: 20px 0;
+}
+
+/* Stil für die Discord Server Buttons */
+.discord-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.discord-server-button {
+    background-color: #7289DA; /* Discord Farbe */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.discord-server-button:hover {
+    background-color: #5a6fb3; /* Dunklere Farbe beim Hover */
+}
+
+
+/* Container, der die Elemente zentriert */
+.center-container {
+    display: flex;
+    flex-direction: column; /* Elemente untereinander anordnen */
+    align-items: center;    /* Zentriert die Elemente horizontal */
+    justify-content: center; /* Zentriert die Elemente vertikal */
+    text-align: center;     /* Zentriert den Text in der Überschrift */
+    margin-top: 20px;       /* Optionaler Abstand nach oben */
+}
+
+/* Angepasster Button */
+.big-button {
+    background-color: #007bff; /* Gleiche Hintergrundfarbe wie vorher */
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Größeres Padding */
+    font-size: 18px; /* Größere Schriftgröße */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 200px; /* Breitere Breite */
+    height: 60px; /* Höhere Höhe */
+    margin-top: 10px; /* Abstand zur Überschrift */
+}
+
+.big-button:hover {
+    background-color: #0056b3; /* Gleiche Hover-Farbe wie vorher */
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entbannungs-Antrag</title>
+    <style>
+        /* Gleiches CSS wie oben */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Entbannungs-Antrag Dokument</h2>
+        <form action="send_unban.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="reason">Grund für den Entbannungs-Antrag:</label>
+                <textarea id="reason" name="reason" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Entbannungs-Antrag senden</button>
+        </form>
+    </div>
+</body>
+</html>
